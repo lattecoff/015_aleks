@@ -11,6 +11,7 @@ for i in range(len(list1)):
 
 print(list2)
 
-list2 = [(item, a, b) for item in list1]
 print('То же самое, с помощью синтаксического сахара.')
+
+list2 = [(item, a, b) for item in list1]
 print(list2)
